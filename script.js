@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', ()=> {
       // When user has chance to guess.
       else if(score) {
             // When the user guess is empty
-            if(!guess) { messageCo  ntainer.textContent = 'No input!'}
+            if(!guess) { messageContainer.textContent = 'No input!'}
             // When the user guess is accepted
             else if(guess === secretNumber) {
                   document.querySelector('body').style.backgroundColor = 'green';
